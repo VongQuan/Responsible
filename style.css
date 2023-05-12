@@ -1,0 +1,174 @@
+html body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(218, 218, 218);
+    background-color: black;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.container h2 {
+    font-size: 2rem;
+    margin: 1rem 0 1rem;
+}
+
+.container h3 {
+    font-size: 2rem;
+    margin: 1rem 0 1rem;
+}
+
+.container h4 {
+    line-height: 2rem;
+}
+
+.container p {
+    line-height: 2rem;
+}
+
+/*Header*/
+.header {
+    background-image: url(./images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.header nav {
+    padding: 1em 2em;
+    background-color: grey;
+    text-align: left;
+    opacity: 0.8;
+}
+
+li {
+    display: inline-block;
+}
+
+nav a {
+    color: rgb(218, 218, 218);
+    padding-right: 1.5em;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.header h1 {
+    font-size: 5em;
+    margin: 3em auto;
+    opacity: 0.8;
+    color: rgb(151, 150, 150);
+}
+
+/*About-us*/
+.about-us {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.about-us img {
+    width: 30%;
+}
+
+/*Program Sections*/
+.program {
+    background-color: rgb(180, 6, 93);
+    text-align: center;
+    margin: 6rem auto 0;
+    padding: 1rem;
+    opacity: 0.8;
+}
+
+.program-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.program-image {
+    width: 30%;
+    text-align: center;
+}
+
+.program-image img {
+    width: 30%;
+}
+
+/*Location*/
+.location {
+    text-align: center;
+    background-color: rgb(8,8,111);
+    padding-bottom: 2rem;
+    opacity: 0.7;
+}
+
+.container .location-image {
+    text-align: center;
+    margin-top: 4em;
+    padding-top: 2em;
+   
+}
+
+
+/*Footer*/
+.footer {
+    
+    background-color: grey;
+    text-align: center;
+    padding: 2rem;
+    opacity: 0.8;
+    border-top: 1px white solid;
+}
+
+.footer h4 {
+    line-height: 2em;
+}
+
+.footer p {
+    line-height: 2em;
+}
+
+@media only screen and(max-width: 640px) {
+    .header{
+        height: auto;
+        padding-bottom: 1rem;
+    }
+
+    .header h1{
+        font-size: 5em;
+        margin: 2em auto;
+        opacity: 0.8;
+        color: rgb(151,150,150);
+    }
+
+    .program-content {
+        width: 100%;
+        display: block;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    .program-image {
+        width: 100%;
+    }
+
+    li {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .footer {
+        display: block;
+        justify-content: center;
+    }
+}
